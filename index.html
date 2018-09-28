@@ -4,315 +4,13 @@
   <title>Nikhil karkra Profile</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-  <style>
-  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }  
-  .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
-  }
-  .container-fluid {
-      padding: 60px 50px;
-  }
-  .bg-grey {
-      background-color: #f6f6f6;
-  }
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
-  .carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #f4511e;
-  }
-  .carousel-indicators li {
-      border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-      background-color: #f4511e;
-  }
-    @media screen and (min-width: 768px){
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -140px !important;
-}
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -140px !important;
-}
-    }
-  .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-   
-  }
-  .item span {
-      font-style: normal;
-  }
-  .panel {
-      border: 1px solid #f4511e; 
-      border-radius:0 !important;
-      transition: box-shadow 0.5s;
-  }
-  .panel:hover {
-      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
-      background-color: #fff !important;
-      color: #f4511e;
-  }
-  .panel-heading {
-      color: #fff !important;
-      background-color: #f4511e !important;
-      padding: 25px;
-      border-bottom: 1px solid transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-  }
-  .panel-footer {
-      background-color: white !important;
-  }
-  .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
-  }
-  .navbar {
-      margin-bottom: 0;
-      background-color: #f4511e;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-  }
-  footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #f4511e;
-  }
-  .slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
-  .userImage{
-    border-radius: 50%;
-    height: 50%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .background-jumbo{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOZ7RkIj3EdeDqsWiz_mcdID9L9IhJnga9HCTuWoCaiZOyew1FyA);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
-  }
-  .borderRadius50{
-      border-radius:50%;
-      width:100%;
-  }
-  .introBox{
-    min-height: 300px;
-    border-radius: 5%;
-    border: 1px solid #818181;
-  }
-  .introBox ul {
-    padding: 25px 20px 30px;
-    list-style: none;
-        }
-  .introBox ul li{
-    padding: 5px 0;
-    font-size: 16px;
-    border-bottom: 1px solid #EEEEEE
-  }
-  .introBox ul li>strong{
-    color:black;
-  }
-  .introBox>div{
-    text-align: center;
-    padding: 5%;    
-  }
-  .introBox>div>img{
-    width: 200px;
-    border-radius: 50%;
-    height: 200px;
-  }
-  .skillsBox ul {
-    padding: 25px 20px 30px;
-    list-style: none;
-        }
-  .skillsBox ul li{
-    padding: 5px 0;
-    font-size: 16px;
-    border-bottom: 1px solid #EEEEEE
-  }
-  .skillsBox ul li>strong{
-    color:black;
-  }
-  .chart {
-    position: relative;
-    display: inline-block;
-    width: 140px;
-    height: 140px;
-    margin: 40px auto;
-    text-align: center;
-}
-.chart canvas {
-    position:absolute; 
-    top:0; 
-    left:0;
-}
-.percent {
-    display: inline-block;
-    margin: auto;
-    line-height: 140px;
-    z-index: 2;
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.percent:after {
-    content: '%';
-}
-
-.chart-text span {
-    color: #ff784e;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: capitalize;
-    display: block;
-    margin-top: 20px;
-}
-.pd-bottom-9{
-    padding-bottom: 9%;
-}
-.mg-bottom-28{
-    margin-bottom:28%;
-}
-.orangeColor{
-    color: #f4511e;
-}
-.glyphiconDownStyle{
-    font-size: 40px;
-    color: #f4511e;
-}
-.pagefooter{
-    padding: 20px;
-    background-color: #f4511e;
-}
-.colorWhite{
-    color:white !important;
-}
-.width100{
-  width:100% !important;
-}
-#about{
-  height:100vh;
-}
-  </style>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link href="./assets/fonts/Montserrat.css" rel="stylesheet" type="text/css">
+  <link href="./assets/fonts/lato.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/angular.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" ng-app="nixalar" ng-controller="nixalarCtrl">
 
@@ -324,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">NIXALAR</a>
+      <!--<a class="navbar-brand" href="#myPage"><img src="./assets/images/logo.png"></a>-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -341,9 +39,15 @@
 
 <div class="jumbotron text-center background-jumbo img-responsive">
 <!--         <img class="userImage img-responsive" src="https://scontent-syd2-1.xx.fbcdn.net/v/t31.0-8/17632101_10208552824170220_8759200966564181273_o.jpg?oh=6faadb221cce03bd9c3bc98684c2807a&oe=5A49A2CF" alt="nik"> -->
-  <h1> Nikhil Karkra</h1> 
-  <p>Front End Developer</p> 
-  <a href="#about"><span class="glyphicon glyphicon-download glyphiconDownStyle"></span></a>
+  <h1 class="threeD">Nikhil Karkra</h1>
+  <p class="threeD-small">Front End Developer</p>
+    <div style="margin-bottom:5%">
+        <a href="https://github.com/karkranikhil"><img src="./assets/images/github.png" style="height: 50px;width: 50px; margin-right: 20px;"></a>
+        <a href="https://www.linkedin.com/in/nikhil-karkra-73a15319/"><img src="./assets/images/linkedin.png" style="height: 50px;width: 50px;"></a>
+    </div>
+  <div class="ft-20 threeD">click me</div>
+  <a href="#about" class="cursor"><span class="glyphicon glyphicon-download glyphiconDownStyle"></span></a>
+
   
 </div>
 
@@ -353,30 +57,33 @@
     <div class="col-sm-8">
       <h2>About Me</h2><br>
       <ul>
-        <li>Front End Developer with 3 years of professional experiences in User Interface Development using recent Web Technologies and frameworks.</li>
+        <li>Front End Developer with 4 years of professional experiences in User Interface Development using recent Web Technologies and frameworks.</li>
+        <li>Web standards, accessibility expert</li>
         <li>Strong developing experience with HTML5, CSS3,Bootstrap and AngularJS.</li>
-        <li>Experienced in JavaScript frameworks and libraries like JQUERY, Angular.js, Datatables, Highcharts etc.</li>
+        <li>Experienced in JavaScript frameworks and libraries like JQUERY, Reactjs, Redux, redux-form, Angular.js, Datatables, Highcharts etc.</li>
         <li>Experienced in designing of responsive website and optimizing websites for mobile display with Bootstrap and CSS3 / JS Media Queries</li>
-        <li>Experienced in Web Tooling & Automation using Bower, Grunt, esLint and Gulp etc.</li>
+        <li>Experienced in Web Tooling & Automation using Webpack, Bower, Grunt, esLint and Gulp etc.</li>
         <li>Expertise in using JSON and AJAX to link with back-end applications.</li>
         <li>Expertise in debugging and troubleshooting existing code using Firebug and Developer Tools.</li>
         <li>Experienced in Agile and Waterfall SDLC.</li>
-        <li>Experienced in Unit testing using Jasmine and karma</li> 
+        <li>Experienced in Unit testing using Jasmine, karma, Jest and enzyme</li>
         <li>Worked with backend engineers and QA to see projects through, from conception to completion</li>
         <li>Created clean, precise browser-compatible code</li>
         <li>Built reusable code for future use</li>
+        <li>Experienced in Progressive web development </li>
     </ul>
     </div>
     <div class="col-sm-4">
       <div class="introBox">
-        <div><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAubAAAAJGU1MzY2YTYxLWI2ZTYtNDBlMy05YThmLWIyOTEyMDljZjkyMw.jpg"></div>
+        <div><img src="./assets/images/nikhil.jpeg"></div>
         <ul>
             <li><strong>Name:&nbsp;</strong>Nikhil Karkra </li>
             <li><strong>Date of birth:&nbsp;</strong>15 Dec 1990 </li>
-            <li><strong>Address:&nbsp;</strong>610/583 La trobe Street, VIC Melbourne </li>
+            <li><strong>Address:&nbsp;</strong>U 1A waterside PL Docklands, VIC Melbourne </li>
             <li><strong>Nationality:&nbsp;</strong>Indian </li>
             <li><strong>Phone:&nbsp;</strong>(+61) 468305744 </li>
             <li><strong>Email:&nbsp;</strong>karkra.nikhil@gmail.com </li>
+            <li><strong>Valid Visa:&nbsp;</strong>Australia, 457 till 2021</li>
         </ul>
      </div>
     </div>
@@ -388,21 +95,22 @@
         <div class="col-sm-6">
             <h2>Skills</h2>
             <ul>
-                <li><strong>Core teachnologies :</strong>HTML5 , CSS3, Javascript</li>
-                <li><strong>Javascript libraries:</strong>jQuery, Datatables, UI-grid, Highcharts</li>
-                <li><strong>Javascript Framework:</strong>Angularjs 1.x</li>
-                <li><strong>CSS preprocessor:</strong>LESS</li>
-                <li><strong>Web automation and Tooling:</strong>Gulp and Webpack</li>
-                <li><strong>Package Manager:</strong>NPM and Bower</li>
-                <li><strong>Testing framework and Task Runner:</strong>Jasmine and Karma</li>
-                <li><strong>Version Control:</strong>GIT</li>
+                <li><strong>Core web technologies :</strong>HTML5 , CSS3, Javascript(ES5/ES6)</li>
+                <li><strong>Javascript libraries:</strong>jQuery, Reactjs, Redux, Redux-from, Lodash, Datatables, UI-grid, Highcharts</li>
+                <li><strong>Javascript Framework:</strong>Angularjs 1.x, Angular 2</li>
+                <li><strong>CSS preprocessor/js:</strong>LESS, SASS and styled components</li>
+                <li><strong>Web automation and Tooling:</strong>Gulp, Grunt and Webpack</li>
+                <li><strong>Package Manager:</strong>NPM, Yarn and Bower</li>
+                <li><strong>Testing framework and Task Runner:</strong>Jasmine, Karma, Jest and Enzyme</li>
+                <li><strong>Version Control:</strong>GIT, TFS</li>
+                <li><strong>Devops:</strong>Docker,CI/CD(basic)</li>
             </ul>
         </div>
         <div class="col-sm-6">
                 <h2>Skills under progress</h2>
                 <ul>
-                    <li><strong>ReactJS </strong></li>
-                    <li><strong>Angular 4</strong></li>
+                    <li><strong>Blockchain </strong></li>
+                    <li><strong>AWS/Kubernetes</strong></li>
                 </ul>
             </div>
     </div>
@@ -460,6 +168,58 @@
               </div>
           </div>
     </div>
+    <div class="col-sm-12">
+          <div class="row more-skill text-center">
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="80" data-color="e74c3c">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>Reactjs</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="70" data-color="2ecc71">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>Redux</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="60" data-color="3498db">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>ES6</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="80" data-color="3498db">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>Web automation</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="80" data-color="3498db">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>Accessibility</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                  <div class="chart" data-percent="60" data-color="3498db">
+                      <span class="percent"></span>
+                      <div class="chart-text">
+                          <span>Blockchain</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 </div>
 
@@ -471,36 +231,53 @@
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <h4> Secondary School Certificate</h4>
-      <span><img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/03b/2fc/353d6d6.png"></span>
+      <span><img src="./assets/images/kendriya_vidyalaya.png" height=100px></span>
       <p>I did my Secondary School Certificate from Kendriya Vidyalaya subathu.</p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h4>Higher Secondary Education</h4>
-      <span><img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/03b/2fc/353d6d6.png"></span>
+      <span><img src="./assets/images/kendriya_vidyalaya.png" height=100px></span>
       <p>I did my Higher Secondary Education from Kendriya Vidyalaya subathu.</p>
     </div>
     <div class="col-sm-4 col-xs-12">
-        <h4>Higher Secondary Education</h4>
-        <span><img src="http://cdn1.askiitians.com/Images/2015212-123143557-525-mmu.jpg" height=200px></span>
+        <h4>Graduation</h4>
+        <span><img src="./assets/images/mmu.png" height=100px></span>
         <p>I did my Graduation in Electronics and communication from Maharishi Markandeshwar University.</p>
     </div>
   </div>
   <br><br>
   <h3 class="orangeColor">Certifications details </h3>
+    <div class="row slideanim">
+        <div class="col-sm-4 col-xs-12">
+            <h3 class="ft-16">Got selected for Google India Challenge Scholarship for the Front-End Web Developer track.</h3>
+            <span><img src="./assets/images/Google_scholorship.png" height=200px></span>
+            <p></p>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <h3 class="ft-16">IBM Blockchain Essentials</h3>
+            <span><img src="./assets/images/Blockchain_Essentials.png" height=200px></span>
+            <p>License 9eb5cb46-0b5d-46be-abfc-efd0f1dd1fbf</p>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <h3 class="ft-16">Front-End Web Development with React from Hong kong university of science and Technology</h3>
+            <span><img src="./assets/images/reactjs.png" height=200px></span>
+            <p>License No.: UJKXGPCPSUKW</p>
+        </div>
+    </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
-        <h4>Microsoft Specialist:Programming in HTML5 with JavaScript and CSS3</h4>
-        <span><img src="microsoft.png" height=200px></span>
+        <h3 class="ft-16">Microsoft Specialist:Programming in HTML5 with JavaScript and CSS3</h3>
+        <span><img src="./assets/images/microsoft.png" height=200px></span>
         <p>License F803-0265</p>
     </div>
     <div class="col-sm-4 col-xs-12">
-        <h4>Front-End Web UI Frameworks and Tools from from Hong kong university of science and Technology</h4>
-        <span><img src="coursera.png" height=200px></span>
+        <h3 class="ft-16">Front-End Web UI Frameworks and Tools from Hong kong university of science and Technology</h3>
+        <span><img src="./assets/images/coursera.png" height=200px></span>
         <p>License DSZCRNCWL5YG</p>
     </div>
     <div class="col-sm-4 col-xs-12">
-        <h4>Diploma in Web Design</h4>
-        <span><img src="AlisonCerti.png" height=200px></span>
+        <h3 class="ft-16">Diploma in Web Design</h3>
+        <span><img src="./assets/images/AlisonCerti.png" height=200px></span>
         <p>License No.: 256-2229426</p>
     </div>
   </div>
@@ -515,16 +292,18 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+
       <div class="item active">
         <h4>
             <div class="row">
                 <div class="col-sm-2 col-xs-12">
                         <a href="https://www.linkedin.com/in/saravanamuthu-kuttalam-17218623/">
-                            <img class="borderRadius50 img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAyGAAAAJDk5MDNjYjRjLTI4MWMtNGFlZi05NTRlLTZjNDk0NDNkMjk1OA.jpg" alt="muthu"/>
+                            <img class="borderRadius50 img-responsive" src="./assets/images/muthu.jpeg" alt="muthu"/>
                         </a>
                     </div>
                 <div class="col-sm-10 col-xs-12">
@@ -538,19 +317,38 @@
             </div>
         </h4>
       </div>
+        <div class="item">
+            <h4>
+                <div class="row">
+                    <div class="col-sm-2 col-xs-12">
+                        <a href="https://www.linkedin.com/in/tom-lopez-a45a092b/">
+                            <img class="borderRadius50 img-responsive"src="./assets/images/Tom.jpeg" alt="siva"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-10 col-xs-12">
+                        <blockquote>
+                            <p>These days, it's rare to come across someone who's truly dedicated to their craft, but that's exactly what I found in Nikhil. He was one of many developers I managed, and I never had to worry about whether a task would be handled correctly or on time. He was a delight to have on my team and would be a valuable asset on any team. I would hire him again in a heartbeat.</p>
+                            <a href="https://www.linkedin.com/in/siva-kumar-45b88721/">
+                                <footer>Tom Lopez (Vice President at Icon Information Solutions, LLC)</footer>
+                            </a>
+                        </blockquote>
+                    </div>
+                </div>
+            </h4>
+        </div>
       <div class="item">
             <h4>
                 <div class="row">
                     <div class="col-sm-2 col-xs-12">
                             <a href="https://www.linkedin.com/in/ramkumariyer/">
-                                <img class="borderRadius50 img-responsive"src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/06d/1cb/2aa9ef1.jpg" alt="ramkumar"/>
+                                <img class="borderRadius50 img-responsive"src="./assets/images/Ram.jpeg" alt="ramkumar"/>
                             </a>
                         </div>
                     <div class="col-sm-10 col-xs-12">
                         <blockquote>
-                                <p>I worked with Nikhil on a UI project with a leading investment bank. Nikhil shouldered a lot of responsibility and was able to provide crucial development support at an important time. He is highly skilled in Web technologies as well as design and can implement complex features and troubleshoot deep issues with ease.</p>
+                                <p>If you want to meet a techie with fire in his belly, Nikhil is the person. I was introduced to an application on Angular JS built by Nikhil and his team and he patiently explained the minute details. Further, he greatly assisted in validating an Angular JS migration methodology. He is always clued into the latest in technology and is greatly infectious as a person. He also is a sharp observer of people and gives excellent insight into people, organizations and processes that are very mature for his level of experience. I worked with him at a major banking client and he was the single point of contact for solving many tricky UI problems. Also Nikhil is always active designing this or the other component for open source and dreaming big. Nikhil is also a person who does not watch the clock and is ready to give it all when called upon (like I was at beginning in my career). I would always treasure the time with this genius (and he has been recognized multiple times by the organization as a star).</p>
                                 <a href="https://www.linkedin.com/in/ramkumariyer/">
-                                    <footer>Ramkumar Iyer (Senior Technical Architect at Infosys (Digital, Mobility & AI))</footer>
+                                    <footer>Ramkumar Iyer (Principal Technical Architect (Products) at Bahwan CyberTek (BFSI))</footer>
                                 </a>
                         </blockquote>
                     </div>
@@ -562,7 +360,7 @@
                 <div class="row">
                     <div class="col-sm-2 col-xs-12">
                             <a href="https://www.linkedin.com/in/siva-kumar-45b88721/">
-                                <img class="borderRadius50 img-responsive"src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/07f/1bb/339c03e.jpg" alt="siva"/>
+                                <img class="borderRadius50 img-responsive"src="./assets/images/shiva.jpeg" alt="siva"/>
                             </a>
                         </div>
                     <div class="col-sm-10 col-xs-12">
@@ -596,51 +394,64 @@
     <h2>achievements</h2>
   </div>
   <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h3>Certificate of Achievement</h1>
+          <h3 class="achievements">Certificate of Achievement</h3>
         </div>
         <div class="panel-body">
-          <img src="certificateOfAchievement.jpg" style="width:100%">
+          <img src="assets/images/certificateOfAchievement.jpg" style="width:100%;Height: 200px;max-height: 200px;"/>
         </div>
         <div class="panel-footer">
           <p>I got the Certificate Of Achievement for the outstanding contribution as a Work performer in Accelerate(one of the initiative of Infosys) for October-December 2015.</p>
         </div>
       </div>      
     </div>     
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-            <h3>Digital Award (RnR)</h1>
+            <h3 class="achievements">Digital Award</h3>
         </div>
         <div class="panel-body">
-            <img src="digitalAward.jpg" style="width:100%">
+            <img src="assets/images/digitalAward.jpg" style="width:100%;Height: 200px;max-height: 200px;">
         </div>
         <div class="panel-footer">
-            <p>I Got the Certificate of Appreciation for the Outstanding Performance in the Digital Experience Unit for the year 2015-2016.</p>
+            <p>I got the Certificate of Appreciation for the Outstanding Performance in the Digital Experience Unit for the year 2015-2016.</p>
         </div>
         </div>      
     </div>       
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-sm-3 col-xs-12">
        <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <h3>Insta Award</h1>
+                <h3 class="achievements">Insta Award</h3>
             </div>
-            <div class="panel-body mg-bottom-28">
-                <img src="instaAward.png" style="width:100%">
+            <div class="panel-body">
+                <img src="assets/images/instaAward.png" style="width:100%;Height: 200px;max-height: 200px;">
             </div>
             <div class="panel-footer pd-bottom-9">
                 <p>I got the Certificate Of Appreciation for the outstanding performance in GWIM project.</p>
             </div>
         </div>      
-    </div>    
+    </div>
+      <div class="col-sm-3 col-xs-12">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                  <h3 class="achievements">Most valuable player</h3>
+              </div>
+              <div class="panel-body">
+                  <img src="./assets/images/MVP.jpeg" style="width:100%;Height: 200px;max-height: 200px;">
+              </div>
+              <div class="panel-footer pd-bottom-9">
+                  <p>Most valuable player award for the valuable contribution & dedicated performance in Q1 FY 19.</p>
+              </div>
+          </div>
+      </div>
   </div>
 </div>
 
 <!-- Container (contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center">Contact</h2>
   <div class="row">
     <div class="col-sm-5">
       <p>Contact me and I'll get back to you within 24 hours.</p>
@@ -689,7 +500,7 @@ marker.setMap(map);
   </a>
   <p>Developed By <a class="colorWhite" href="https://www.linkedin.com/in/nikhil-karkra-73a15319/" title="Nikhil Karkra">Nikhil Karkra</a></p>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.js"></script>
+<script src="./assets/js/easypiechart.js"></script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
