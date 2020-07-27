@@ -69,7 +69,7 @@
             window.print()
         })
     }, t.prototype.init = function () {
-        this.initprofileRipple(), this.initCounter(), this.initFilter(), this.initmagnificPopup(), this.initPrint(), this.initContact()
+        this.initprofileRipple(), this.initCounter(), this.initFilter(), this.initmagnificPopup(), this.initPrint()
     }, o.MainApp = new t, o.MainApp.Constructor = t
 }(window.jQuery),
     function (t) {
