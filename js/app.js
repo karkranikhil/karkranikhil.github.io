@@ -68,21 +68,6 @@
         o("#lnkPrint").click(function () {
             window.print()
         })
-    }, t.prototype.initContact = function () {
-        o("#contact-form").submit(function () {
-            var t = o(this).attr("action");
-            return o("#message").slideUp(750, function () {
-                o("#message").hide(), o("#submit").before("").attr("disabled", "disabled"), o.post(t, {
-                    name: o("#name").val(),
-                    email: o("#email").val(),
-                    comments: o("#comments").val()
-                }, function (t) {
-                    document.getElementById("message").innerHTML = t, o("#message").slideDown("slow"), o("#cform img.contact-loader").fadeOut("slow", function () {
-                        o(this).remove()
-                    }), o("#submit").removeAttr("disabled"), null != t.match("success") && o("#cform").slideUp("slow")
-                })
-            }), !1
-        })
     }, t.prototype.init = function () {
         this.initprofileRipple(), this.initCounter(), this.initFilter(), this.initmagnificPopup(), this.initPrint(), this.initContact()
     }, o.MainApp = new t, o.MainApp.Constructor = t
