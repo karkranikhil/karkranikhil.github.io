@@ -1,568 +1,979 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Nikhil karkra Profile</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-  <link href="./assets/fonts/Montserrat.css" rel="stylesheet" type="text/css">
-  <link href="./assets/fonts/lato.css" rel="stylesheet" type="text/css">
-  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
-  <script src="./assets/js/angular.min.js"></script>
+   <meta charset="utf-8">
+   <title>Nikhil Karkra</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta content="A personal portfolio of Nikhil karkra" name="description">
+   <meta content="Nikhil Karkra" name="author">
+   <!-- App favicon -->
+   <link rel="shortcut icon" href="images/favicon.ico">
+   <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css">
+   <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css">
+   <!-- App css -->
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <link href="css/icons.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" ng-app="nixalar" ng-controller="nixalarCtrl">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <!--<a class="navbar-brand" href="#myPage"><img src="./assets/images/logo.png"></a>-->
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#recommendations">RECOMMENDATIONS</a></li>
-        <li><a href="#achievements">ACHIEVEMENTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div class="jumbotron text-center background-jumbo img-responsive">
-<!--         <img class="userImage img-responsive" src="https://scontent-syd2-1.xx.fbcdn.net/v/t31.0-8/17632101_10208552824170220_8759200966564181273_o.jpg?oh=6faadb221cce03bd9c3bc98684c2807a&oe=5A49A2CF" alt="nik"> -->
-  <h1 class="threeD">Nikhil Karkra</h1>
-  <p class="threeD-small">Front End Developer</p>
-    <div style="margin-bottom:5%">
-        <a href="https://github.com/karkranikhil" target="_blank" class="cursor"><img src="./assets/images/github.png" style="height: 50px;width: 50px; margin-right: 20px;"></a>
-        <a href="https://www.linkedin.com/in/nikhil-karkra-73a15319/" target="_blank" class="cursor"><img src="./assets/images/linkedin.png" style="height: 50px;width: 50px;"></a>
-    </div>
-  <div class="ft-20 threeD">click me</div>
-  <a href="#about" class="cursor"><span class="glyphicon glyphicon-download glyphiconDownStyle"></span></a>
-
-  
-</div>
-
-<!-- Container (About Section) -->
-<div id="about" class="container">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About Me</h2><br>
-      <ul>
-        <li>Front End Developer with 4 years of professional experiences in User Interface Development using recent Web Technologies and frameworks.</li>
-        <li>Web standards, accessibility expert</li>
-        <li>Strong developing experience with HTML5, CSS3,Bootstrap and AngularJS.</li>
-        <li>Experienced in JavaScript frameworks and libraries like JQUERY, Reactjs, Redux, redux-form, Angular.js, Datatables, Highcharts etc.</li>
-        <li>Experienced in designing of responsive website and optimizing websites for mobile display with Bootstrap and CSS3 / JS Media Queries</li>
-        <li>Experienced in Web Tooling & Automation using Webpack, Bower, Grunt, esLint and Gulp etc.</li>
-        <li>Expertise in using JSON and AJAX to link with back-end applications.</li>
-        <li>Expertise in debugging and troubleshooting existing code using Firebug and Developer Tools.</li>
-        <li>Experienced in Agile and Waterfall SDLC.</li>
-        <li>Experienced in Unit testing using Jasmine, karma, Jest and enzyme</li>
-        <li>Worked with backend engineers and QA to see projects through, from conception to completion</li>
-        <li>Created clean, precise browser-compatible code</li>
-        <li>Built reusable code for future use</li>
-        <li>Experienced in Progressive web development </li>
-    </ul>
-    </div>
-    <div class="col-sm-4">
-      <div class="introBox">
-        <div><img src="./assets/images/nikhil.jpeg"></div>
-        <ul>
-            <li><strong>Name:&nbsp;</strong>Nikhil Karkra </li>
-            <li><strong>Date of birth:&nbsp;</strong>15 Dec 1990 </li>
-            <li><strong>Address:&nbsp;</strong>U 1A waterside PL Docklands, VIC Melbourne </li>
-            <li><strong>Nationality:&nbsp;</strong>Indian </li>
-            <li><strong>Phone:&nbsp;</strong>(+61) 468305744 </li>
-            <li><strong>Email:&nbsp;</strong>karkra.nikhil@gmail.com </li>
-            <li><strong>Valid Visa:&nbsp;</strong>Australia, 457 till 2021</li>
-        </ul>
-     </div>
-    </div>
-  </div>
-</div>
-<!-- Container (skills Section) -->
-<div id="skills" class="container-fluid bg-grey">
-    <div class="row skillsBox">
-        <div class="col-sm-6">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Core web technologies :</strong>HTML5 , CSS3, Javascript(ES5/ES6)</li>
-                <li><strong>Javascript libraries:</strong>jQuery, Reactjs, Redux, Redux-from, Lodash, Datatables, UI-grid, Highcharts</li>
-                <li><strong>Javascript Framework:</strong>Angularjs 1.x, Angular 2</li>
-                <li><strong>CSS preprocessor/js:</strong>LESS, SASS and styled components</li>
-                <li><strong>Web automation and Tooling:</strong>Gulp, Grunt and Webpack</li>
-                <li><strong>Package Manager:</strong>NPM, Yarn and Bower</li>
-                <li><strong>Testing framework and Task Runner:</strong>Jasmine, Karma, Jest and Enzyme</li>
-                <li><strong>Version Control:</strong>GIT, TFS</li>
-                <li><strong>Devops:</strong>Docker,CI/CD(basic)</li>
-            </ul>
-        </div>
-        <div class="col-sm-6">
-                <h2>Learning</h2>
-                <ul>
-                    <li><strong>Blockchain </strong></li>
-                    <li><strong>AWS/Kubernetes</strong></li>
-                </ul>
-            </div>
-    </div>
-  <div class="row">
-    <!--<h2>Primary Skills</h2>-->
-    <div class="col-sm-12">
-     <div class="row more-skill text-center">
-            <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="91" data-color="e74c3c">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>HTML5</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="85" data-color="2ecc71">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>CSS/CSS3</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="85" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>Bootstrap</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="75" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>JavaScript</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="75" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>JQuery</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <div class="chart" data-percent="80" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                        <span>Angular 1.X</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-    </div>
-    <div class="col-sm-12">
-          <div class="row more-skill text-center">
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="80" data-color="e74c3c">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>Reactjs</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="70" data-color="2ecc71">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>Redux</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="60" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>ES6</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="80" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>Web automation</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="80" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>Accessibility</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                  <div class="chart" data-percent="60" data-color="3498db">
-                      <span class="percent"></span>
-                      <div class="chart-text">
-                          <span>Blockchain</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+      <div class="container">
+         <a class="navbar-brand" href="#"><i class="uil uil-apps text-primary"></i>Nikhil Karkra</a> <button
+            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       </div>
-  </div>
-</div>
-
-<!-- Container (education Section) -->
-<div id="education" class="container-fluid text-center">
-  <h2>Educations and Certifications</h2>
-  <h3 class="orangeColor">Educational details </h3>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <h4> Secondary School Certificate</h4>
-      <span><img src="./assets/images/kendriya_vidyalaya.png" height=100px></span>
-      <p>I did my Secondary School Certificate from Kendriya Vidyalaya subathu.</p>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-      <h4>Higher Secondary Education</h4>
-      <span><img src="./assets/images/kendriya_vidyalaya.png" height=100px></span>
-      <p>I did my Higher Secondary Education from Kendriya Vidyalaya subathu.</p>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-        <h4>Graduation</h4>
-        <span><img src="./assets/images/mmu.png" height=100px></span>
-        <p>I did my Graduation in Electronics and communication from Maharishi Markandeshwar University.</p>
-    </div>
-  </div>
-  <br><br>
-  <h3 class="orangeColor">Certifications details </h3>
-    <div class="row slideanim">
-        <div class="col-sm-4 col-xs-12">
-            <h3 class="ft-16">Got selected for Google India Challenge Scholarship for the Front-End Web Developer track.</h3>
-            <span><img src="./assets/images/Google_scholorship.png" height=200px></span>
-            <p></p>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <h3 class="ft-16">IBM Blockchain Essentials</h3>
-            <span><img src="./assets/images/Blockchain_Essentials.png" height=200px></span>
-            <p>License 9eb5cb46-0b5d-46be-abfc-efd0f1dd1fbf</p>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <h3 class="ft-16">Front-End Web Development with React from Hong kong university of science and Technology</h3>
-            <span><img src="./assets/images/reactjs.png" height=200px></span>
-            <p>License No.: UJKXGPCPSUKW</p>
-        </div>
-    </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-        <h3 class="ft-16">Microsoft Specialist:Programming in HTML5 with JavaScript and CSS3</h3>
-        <span><img src="./assets/images/microsoft.png" height=200px></span>
-        <p>License F803-0265</p>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-        <h3 class="ft-16">Front-End Web UI Frameworks and Tools from Hong kong university of science and Technology</h3>
-        <span><img src="./assets/images/coursera.png" height=200px></span>
-        <p>License DSZCRNCWL5YG</p>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-        <h3 class="ft-16">Diploma in Web Design</h3>
-        <span><img src="./assets/images/AlisonCerti.png" height=200px></span>
-        <p>License No.: 256-2229426</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Recommendations Section) -->
-<div id="recommendations" class="container-fluid text-center bg-grey">
-  <h2>Recommendations</h2>
-  <div id="myCarousel" class="carousel text-center slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <h4>
+      <!--end container-->
+   </nav>
+   <!--end nav-->
+   <div class="main-wraper">
+      <section class="section bg-profile" id="profile_ripple">
+         <div class="zoo-profile">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6 col-print-6 align-self-center mb-3 mb-lg-0">
+                     <div class="zoo-profile-main">
+                        <div class="zoo-profile-main-pic"><img src="images/users/user-4.jpg" alt=""
+                              class="rounded-circle"> <span class="zoo-user-chat"><i
+                                 class="uil uil-comment-dots"></i></span></div>
+                        <!--end zoo-profile-main-pic-->
+                        <div class="zoo-profile_user-detail">
+                           <h5 class="zoo-user-name">Nikhil Karkra</h5>
+                           <p class="cd-headline loading-bar"><span class="cd-words-wrapper"><b
+                                    class="is-visible">JavaScript Developer</b> <b>Salesforce Developer</b> <b>Full
+                                    Stack Developer</b></span></p>
+                        </div>
+                        <!--end zoo-profile_user-detail-->
+                     </div>
+                     <!--end profile-main-pic-->
+                  </div>
+                  <!--end col-->
+                  <div class="col-sm-4 col-print-4 ml-auto">
+                     <ul class="list-unstyled personal-detail">
+                        <li><i class="'uil uil-phone-volume mr-2"></i> <b>phone </b>: +61 468305744</li>
+                        <li class="mt-2"><i class="uil uil-envelope mt-2 mr-2"></i> <b>Email </b>:
+                           karkra.nikhil@gmail.com</li>
+                        <!-- <li class="mt-2"><i class="uil uil-location-point  mt-2 mr-2"></i> <b>Location</b> : USA</li> -->
+                     </ul>
+                     <!--end personal-detail-->
+                     <ul class="list-inline social-icon mb-0">
+                        <li class="list-inline-item"><a href="https://twitter.com/karkra_nikhil" class="bg-secondary"><i
+                                 class="uil uil-twitter"  target="_blank"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/karkranikhil" class="bg-grey" target="_blank"><i class="uil uil-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCAYCXLokF9UNrGmblxKPRXA" class="bg-red"  target="_blank"><i class="uil uil-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/nikhilkarkra/" class="bg-blue"  target="_blank"><i class="uil uil-linkedin"></i></a>
+                        </li>
+                     </ul>
+                     <!--end social-icon-->
+                  </div>
+                  <!--end col-->
+               </div>
+               <!--end row-->
+            </div>
+            <!--end container-->
+         </div>
+         <!--end zoo-profile-->
+      </section>
+      <!--end section-->
+      <section class="section-md">
+         <div class="container">
             <div class="row">
-                <div class="col-sm-2 col-xs-12">
-                        <a href="https://www.linkedin.com/in/saravanamuthu-kuttalam-17218623/">
-                            <img class="borderRadius50 img-responsive" src="./assets/images/muthu.jpeg" alt="muthu"/>
-                        </a>
-                    </div>
-                <div class="col-sm-10 col-xs-12">
-                    <blockquote>
-                            <p>Excellent senior front end developer, very quick learner in any new technology. Rich Expertise in JavaScript frameworks & mobile app development. Very dedicated, has the capability to develop a module in one night out. Good mentor to freshers, will be a great asset to any organization! </p>
-                            <a href="https://www.linkedin.com/in/saravanamuthu-kuttalam-17218623/">
-                                <footer>SaravanaMuthu Kuttalam (COO at Technocrats India College Finder)</footer>
-                            </a>
-                    </blockquote>
-                </div>
+               <div class="col-12">
+                  <h4 class="header-title mb-3">About us !</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-6 col-print-6">
+                  <h4 class="text-primary font-weight-bold">I'm Nikhil Karkra</h4>
+                  <p>Versatile Fullstack Developer with 5+ years of experience designing, developing, and managing
+                     complex web applications
+                     and internal frameworks. Proficient in HTML, CSS, JavaScript, plus modern libraries and
+                     frameworks.Passionate about
+                     Responsive web designing, Accessibility, Performance optimization, and possess a working knowledge
+                     of Progressive web
+                     application. Nikhil is experienced in decision-making areas beyond programming, such as product
+                     development, hiring,
+                     etc.</p>
+                  <!-- <button type="button" class="btn btn-sm btn-soft-primary">Download CV</button> -->
+               </div>
+               <!--end col-->
+               <div class="col-sm-5 col-print-5 offset-lg-1 align-self-center">
+                  <p><span class="personal-detail-title">Name</span> <span class="personal-detail-info">Nikhil
+                        Karkra</span></p>
+                  <p><span class="personal-detail-title">Date of birth</span> <span class="personal-detail-info">15
+                        December 1990</span></p>
+                  <p><span class="personal-detail-title">Spoken Langages</span> <span
+                        class="personal-detail-info">English - Hindi - Punjabi</span></p>
+                  <p><span class="personal-detail-title">Nationality</span> <span
+                        class="personal-detail-info">INDIAN</span></p>
+                  <p><span class="personal-detail-title">Interest</span> <span class="personal-detail-info">Music,
+                        Coding, trekking</span></p>
+               </div>
+               <!--end col-->
             </div>
-        </h4>
-      </div>
-        <div class="item">
-            <h4>
-                <div class="row">
-                    <div class="col-sm-2 col-xs-12">
-                        <a href="https://www.linkedin.com/in/tom-lopez-a45a092b/">
-                            <img class="borderRadius50 img-responsive"src="./assets/images/Tom.jpeg" alt="siva"/>
-                        </a>
-                    </div>
-                    <div class="col-sm-10 col-xs-12">
-                        <blockquote>
-                            <p>These days, it's rare to come across someone who's truly dedicated to their craft, but that's exactly what I found in Nikhil. He was one of many developers I managed, and I never had to worry about whether a task would be handled correctly or on time. He was a delight to have on my team and would be a valuable asset on any team. I would hire him again in a heartbeat.</p>
-                            <a href="https://www.linkedin.com/in/siva-kumar-45b88721/">
-                                <footer>Tom Lopez (Vice President at Icon Information Solutions, LLC)</footer>
-                            </a>
-                        </blockquote>
-                    </div>
-                </div>
-            </h4>
-        </div>
-      <div class="item">
-            <h4>
-                <div class="row">
-                    <div class="col-sm-2 col-xs-12">
-                            <a href="https://www.linkedin.com/in/ramkumariyer/">
-                                <img class="borderRadius50 img-responsive"src="./assets/images/Ram.jpeg" alt="ramkumar"/>
-                            </a>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="section-md">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">Education & Experience</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-12 col-print-6">
+                  <div class="row">
+                     <div class="col-sm-6 col-print-6">
+                        <div class="resume-icon">
+                           <i class="uil uil-graduation-hat"></i>
+                           <h5 class="mt-n2">Education</h5>
                         </div>
-                    <div class="col-sm-10 col-xs-12">
-                        <blockquote>
-                                <p>If you want to meet a techie with fire in his belly, Nikhil is the person. I was introduced to an application on Angular JS built by Nikhil and his team and he patiently explained the minute details. Further, he greatly assisted in validating an Angular JS migration methodology. He is always clued into the latest in technology and is greatly infectious as a person. He also is a sharp observer of people and gives excellent insight into people, organizations and processes that are very mature for his level of experience. I worked with him at a major banking client and he was the single point of contact for solving many tricky UI problems. Also Nikhil is always active designing this or the other component for open source and dreaming big. Nikhil is also a person who does not watch the clock and is ready to give it all when called upon (like I was at beginning in my career). I would always treasure the time with this genius (and he has been recognized multiple times by the organization as a star).</p>
-                                <a href="https://www.linkedin.com/in/ramkumariyer/">
-                                    <footer>Ramkumar Iyer (Principal Technical Architect (Products) at Bahwan CyberTek (BFSI))</footer>
-                                </a>
-                        </blockquote>
-                    </div>
-                </div>
-                </h4>
-          </div>
-      <div class="item">
-            <h4>
-                <div class="row">
-                    <div class="col-sm-2 col-xs-12">
-                            <a href="https://www.linkedin.com/in/siva-kumar-45b88721/">
-                                <img class="borderRadius50 img-responsive"src="./assets/images/shiva.jpeg" alt="siva"/>
-                            </a>
+                        <!--end resume-icon-->
+                        <div class="timeline">
+                           <div class="time-item mt-3">
+                              <div class="item-info">
+                                 <div class="font-14">2009 - 2013</div>
+                                 <h5 class="my-1">University</h5>
+                                 <p>Bachelor of Electronics and Communication engineering</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
+                           <div class="time-item mt-3">
+                              <div class="item-info">
+                                 <div class="font-14">2007 - 2009</div>
+                                 <h5 class="my-1"></h5>
+                                 <p>Senior Secondary</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
+                           <div class="time-item">
+                              <div class="item-info">
+                                 <div class="font-14">2005 - 2007</div>
+                                 <h5 class="my-1"></h5>
+                                 <p>High School</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
                         </div>
-                    <div class="col-sm-10 col-xs-12">
-                        <blockquote>
-                                <p>Nikhil worked with me in few project and POC. He is always interested to create and learn new things. He is having good problem solving skills. He is good team player and his coordination is great.</p>
-                                <a href="https://www.linkedin.com/in/siva-kumar-45b88721/">
-                                    <footer>Siva Kumar (Technology Lead at Infosys)</footer>
-                                </a>
-                        </blockquote>
-                    </div>
-                </div>
-            </h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-
-<!-- Container (achievements Section) -->
-<div id="achievements" class="container-fluid">
-  <div class="text-center">
-    <h2>achievements</h2>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h3 class="achievements">Certificate of Achievement</h3>
-        </div>
-        <div class="panel-body">
-          <img src="assets/images/certificateOfAchievement.jpg" style="width:100%;Height: 200px;max-height: 200px;"/>
-        </div>
-        <div class="panel-footer">
-          <p>I got the Certificate Of Achievement for the outstanding contribution as a Work performer in Accelerate(one of the initiative of Infosys) for October-December 2015.</p>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-            <h3 class="achievements">Digital Award</h3>
-        </div>
-        <div class="panel-body">
-            <img src="assets/images/digitalAward.jpg" style="width:100%;Height: 200px;max-height: 200px;">
-        </div>
-        <div class="panel-footer">
-            <p>I got the Certificate of Appreciation for the Outstanding Performance in the Digital Experience Unit for the year 2015-2016.</p>
-        </div>
-        </div>      
-    </div>       
-    <div class="col-sm-3 col-xs-12">
-       <div class="panel panel-default text-center">
-            <div class="panel-heading">
-                <h3 class="achievements">Insta Award</h3>
+                        <!--end timeline-->
+                     </div>
+                     <div class="col-sm-6 col-print-6">
+                        <div class="resume-icon">
+                           <i class="uil uil-suitcase-alt"></i>
+                           <h5 class="mt-n2">Experience</h5>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-6 col-print-6">
+                              <div class="timeline">
+                                 <div class="time-item">
+                                    <div class="item-info">
+                                       <div class="font-14">Jan 2020 - present</div>
+                                       <h5 class="my-1">Manager</h5>
+                                       <p>Capgemini Australia</p>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Mar 2019 - Dec 2019</div>
+                                       <h5 class="my-1">Senior Consultant</h5>
+                                       <p>Capgemini Australia</p>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">May 2017 - Feb 2019</div>
+                                       <h5 class="my-1">Senior System Engineer</h5>
+                                       <p>Infosys Ltd Australia</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-print-6">
+                              <div class="timeline">
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Jan 2017 - Apr 2017</div>
+                                       <h5 class="my-1">Senior System Engineer</h5>
+                                       <p>Infosys Ltd India</p>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Oct 2014 - Dec 2016</div>
+                                       <h5 class="my-1">System Engineer</h5>
+                                       <p>Infosys Ltd India</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--end row-->
+               </div>
+               <!--end col-->
+               <!--end col-->
             </div>
-            <div class="panel-body">
-                <img src="assets/images/instaAward.png" style="width:100%;Height: 200px;max-height: 200px;">
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="bg-funfact section-md skills">
+         <div class="container">
+            <div class="row justify-content-center" id="counter">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">Skills</h4>
+               </div>
+               <div class="col-12 pt-3">
+                  <div class="row">
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-js skill_icon yellow_color"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-angular skill_icon red_color"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-react skill_icon" style="color:#61dafb"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-git skill_icon" style="color:#f05133"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-html5 skill_icon" style="color:#f06529"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-css3 skill_icon" style="color:#2993c9"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-salesforce skill_icon" style="color:#009ddb"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-sass skill_icon" style="color:#c76495"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-less skill_icon" style="color:#2a4c80"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-node skill_icon" style="color:#3c823b"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-bootstrap skill_icon" style="color:#7a39db"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-invision skill_icon" style="color:#d5375c"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-npm skill_icon" style="color:#c53635"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-yarn skill_icon" style="color:#3998c2"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-aws skill_icon" style="color:#f89500"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-jira skill_icon" style="color:#0744a9"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-slack skill_icon" style="color:#9d17a0"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-gulp skill_icon" style="color:#c53635"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <i class="fab fa-grunt skill_icon" style="color:#f89500"></i>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/SC.png" alt="" height="40"/>
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/jquery.png" alt="" height="40" style="background: #e4cbcb;border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/MUI.png" alt="material ui ico" height="40" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/gatsby.png" alt="gatby icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/netlify.png" alt="gatby icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/graphql.png" alt="gatby icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/Redux.png" alt="Redux icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/circleci.png" alt="circleci icon" height="40" style="border-radius: 10px; background:#e8dada" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/firebase.png" alt="firebase icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/jest.png" alt="jest icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/heroku.jpg" alt="heroku icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/cypress.png" alt="cypress icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/HC.png" alt="highcharts icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/svelte.png" alt="svelte icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/eslint.jpg" alt="eslint icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/lighthouse.png" alt="lighthouse icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     <div class="col-2 col-sm-1 text-center mb-3">
+                        <img src="./images/SKILLS/mongodb.jpg" alt="mongodb icon" height="40" style="border-radius: 10px;" />
+                     </div>
+                     
+                     <!-- <div class="col-12 col-sm-2 text-center">
+                        <img src="images/Clients/RMIT.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2 mb-3 text-center">
+                        <img src="images/Clients/NSW.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3text-center">
+                        <img src="images/Clients/SCB.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3 text-center">
+                        <img src="images/Clients/BEL.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3 text-center">
+                        <img src="images/Clients/BOFA.jpg" height="80" width="100%" />
+                     </div> -->
+                  </div>
+               </div>
             </div>
-            <div class="panel-footer pd-bottom-9">
-                <p>I got the Certificate Of Appreciation for the outstanding performance in GWIM project.</p>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="section-md my-work">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">Recommendations</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-12 col-print-12 align-self-center recommendation_box">
+                  <div class="p-4">
+                     <div class="text-center">
+                        <h2><i class="uil uil-feedback text-primary"></i></h2>
+                     </div>
+                     <!--end /div-->
+                     <div id="carouselExampleFade2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                           <div class="carousel-item">
+                              <div class="text-center">
+                                 <p class="px-4">Nikhil was a friendly and helpful member of our team who was a delight
+                                    to work with. His development skills were second to none and he was instrumental in
+                                    the delivery of many business critical features on our Researcher Portal. He had a
+                                    willingness to share and impart knowledge with team members, customers and other ITS
+                                    colleagues.
+
+                                    Nikhil took great pride in his work and always ensured his code and documentation
+                                    were of a high standard. He regularly participated in our Developer Chapter meetings
+                                    to identify issues and drive improvement. He also identified issues and
+                                    areas for improvement within our team. A perfect example of this was when he created
+                                    a number of re-usable components which led to efficiency and improved productivity.
+                                    It was been an absolute pleasure to work with Nikhil and I wish him
+                                    all the best in the future.</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C4E03AQHzgU286QW0Ng/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=TqJ9S2LBT_BLNz86OYhKYFt5qWi9s1HVw8goFzTw2Lo"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>- <a
+                                             href="https://www.linkedin.com/in/shane-robinson-a55ab077/"
+                                             target="_blank">Shane Robinson</a></b></p>
+                                    <small class="text-muted">SAFE Scrum Master at RMIT University</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--end carousel-item-->
+                           <div class="carousel-item active">
+                              <div class="text-center">
+                                 <p class="px-4">Nikhil is one of the best Front End Developers I've worked with in my
+                                    time. He is highly skilled, very collaborative, to learn anything he is unfamiliar
+                                    with, and keep up with the latest methods and technologies. He's an asset to any
+                                    team!</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C4E03AQGrurnLDbnx2g/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=av9X6dFDwZuePERVrGfqvXVexduq2wAJqNrmZVOcbMU"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>- <a
+                                             href="https://www.linkedin.com/in/tania-gioffre-220070a1/"
+                                             target="_blank">Tania Gioffre</a></b></p>
+                                    <small class="text-muted">Experience Designer at AGL Energy</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--end carousel-item-->
+                           <div class="carousel-item">
+                              <div class="text-center">
+                                 <p class="px-4">These days, it's rare to come across someone who's truly dedicated to
+                                    their craft, but that's exactly what I found in Nikhil. He was one of many
+                                    developers I managed, and I never had to worry about whether a task would be handled
+                                    correctly or on time. He was a delight to have on my team and would be a valuable
+                                    asset on any team. I would hire him again in a heartbeat.</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C5603AQG5G0yst4EYtw/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=SIBM2EUMzFVjCzxO-Fp3ADghSgfm_nJPRCZ-_E5qtf0"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>- <a
+                                             href="https://www.linkedin.com/in/tom-lopez-a45a092b/" target="_blank">Tom
+                                             Lopez</a></b></p>
+                                    <small class="text-muted">Vice President at Icon Information Solutions, LLC</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="text-center">
+                                 <p class="px-4">If you want to meet a techie with fire in his belly, Nikhil is the
+                                    person. I was introduced to an application on Angular JS built by Nikhil and his
+                                    team and he patiently explained the minute details. Further, he greatly assisted in
+                                    validating an Angular JS migration methodology. He is always clued into the latest
+                                    in technology and is greatly infectious as a person. He also is a sharp observer of
+                                    people and gives excellent insight into people, organizations and processes that are
+                                    very mature for his level of experience. I worked with him at a major banking client
+                                    and he was the single point of contact for solving many tricky UI problems. Also
+                                    Nikhil is always active designing this or the other component for open source and
+                                    dreaming big. Nikhil is also a person who does not watch the clock and is ready to
+                                    give it all when called upon (like I was at beginning in my career). I would always
+                                    treasure the time with this genius (and he has been recognized multiple times by the
+                                    organization as a star).</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C5103AQH2xC_gT7M-vw/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=tHZNVDUXwhB7d_AUsOeggPf4b8uL7ITz-9H4cQuQWd0"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>- <a
+                                             href="https://www.linkedin.com/in/ramkumariyer/" target="_blank">Ramkumar
+                                             Iyer</a></b></p>
+                                    <small class="text-muted">Lead Technical Architect</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="text-center">
+                                 <p class="px-4">Excellent senior front end developer, very quick learner in any new
+                                    technology. Rich Expertise in JavaScript frameworks & mobile app development. Very
+                                    dedicated, has the capability to develop a module in one night out. Good mentor to
+                                    freshers, will be a great asset to any organization!</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C4D03AQHc_92WAq59_Q/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=z8_D2uaegmeZl8ltJlCQxXzU4DwtyIKynwuGPzJyOlk"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>- <a
+                                             href="https://www.linkedin.com/in/saravanamuthu-kuttalam-17218623/"
+                                             target="_blank">SaravanaMuthu Kuttalam</a></b></p>
+                                    <small class="text-muted">COO at Technocrats India College Finder</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="text-center">
+                                 <p class="px-4">highly motivated and dedicated professional, pleasure to work with</p>
+                                 <div>
+                                    <img
+                                       src="https://media-exp1.licdn.com/dms/image/C5603AQEVNoVDK-3_IA/profile-displayphoto-shrink_100_100/0?e=1601510400&v=beta&t=tlBck6letZCxdtibFL8R1i-Qeb4HRvZ62DDdZPw_BSI"
+                                       alt="" class="rounded-circle thumb-md mb-2">
+                                    <p class="mb-0 text-primary"><b>-<a
+                                             href="https://www.linkedin.com/in/deepikajparmar/" target="_blank">Deepika
+                                             Parmar</a></b></p>
+                                    <small class="text-muted">Project Manager/ Product Owner at ANZ</small>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--end carousel-item-->
+                        </div>
+                        <!--end carousel-inner-->
+                     </div>
+                     <!--end carousel-->
+                  </div>
+                  <!--end /div-->
+               </div>
+               <!--end col-->
             </div>
-        </div>      
-    </div>
-      <div class="col-sm-3 col-xs-12">
-          <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                  <h3 class="achievements">Most valuable player</h3>
-              </div>
-              <div class="panel-body">
-                  <img src="./assets/images/MVP.jpeg" style="width:100%;Height: 200px;max-height: 200px;">
-              </div>
-              <div class="panel-footer pd-bottom-9">
-                  <p>Most valuable player award for the valuable contribution & dedicated performance in Q1 FY 19.</p>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
 
-<!-- Container (contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Contact</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact me and I'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Melbourne, AUS</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +61 468305744</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> karkra.nikhil@gmail.com</p>
-    </div>
-    <form ng-submit="sendMail('karkra.nikhil@gmail.com','msg from you from Nixalar site',Comment)">
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" ng-model="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" ng-model="emailId" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" ng-model="Comment" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>	
-        </div>
-      </div>
-    </div>
-</form>
-  </div>
-</div>
-
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(-37.813278, 144.951827);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx9WL5k9qbs993tq2AcKIrZ4TDeKlXwM4&callback=myMap"></script>
-
-
-<footer class="text-center colorWhite pagefooter">
-  <a href="#myPage" class="colorWhite" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up colorWhite"></span>
-  </a>
-  <p>Developed By <a class="colorWhite" href="https://www.linkedin.com/in/nikhil-karkra-73a15319/" title="Nikhil Karkra">Nikhil Karkra</a></p>
-</footer>
-<script src="./assets/js/easypiechart.js"></script>
-<script>
-$(document).ready(function(){
-    $(".preload").fadeOut(2000, function() {
-       // $(".content").fadeIn(1000);
-    });
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
+      <section class="section-md my-work">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">My Works</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-12">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="row pt-3">
+                           <p class="px-4">The majority of my work is confidential, so I can't showcase my client's work. I have some freelance or personal work
+                           images that I can showcase.</p>
+                        </div>
+                        <!-- <div class="row">
+                           <ul class="col container-filter categories-filter mb-4" id="filter">
+                              <li><a class="categories active" data-filter="*">All</a></li>
+                              <li><a class="categories" data-filter=".design">UI/UX Design</a></li>
+                              <li><a class="categories" data-filter=".frontend">Frontend</a></li>
+                              <li><a class="categories" data-filter=".backend">Backend</a></li>
+                           </ul>
+                        </div> -->
+                        <!-- End portfolio  -->
+                        <div class="row container-grid nf-col-3 projects-wrapper pt-3">
+                           <div class="col-md-4 col-6 p-0 nf-item design p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/1.jpg" title="Loonum.com">
+                                    <img class="item-container" src="images/portfolio/1.jpg" alt="7">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-white">Loonum</h5>
+                                          <p class="text-white">Progressive Web Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                           <div class="col-md-4 col-6 p-0 nf-item backend text-center  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/2.jpg"
+                                    title="Digital Agency">
+                                    <img class="item-container mfp-fade" src="images/portfolio/thumb2.jpg" alt="2">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Digital Agency</h5>
+                                          <p class="text-light">Responsive Web Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                           <div class="col-md-4 col-6 p-0 nf-item design frontend  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/10.jpg" title="Drive Champ">
+                                    <img class="item-container" src="images/portfolio/10.jpg" alt="10">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Drive Champ</h5>
+                                          <p class="text-light">Responsive Web Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <div class="col-md-4 col-6 p-0 nf-item design frontend  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/9.jpg"
+                                    title="Markdown Editor">
+                                    <img class="item-container" src="images/portfolio/9.jpg" alt="9">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">My Car Wah</h5>
+                                          <p class="text-light">Responsive Web Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <div class="col-md-4 col-6 p-0 nf-item design frontend  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/3.jpg"
+                                    title="Markdown Editor">
+                                    <img class="item-container" src="images/portfolio/3.jpg" alt="4">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Svelte Markdown Editor</h5>
+                                          <p class="text-light">Web Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                           <div class="col-md-4 col-6 p-0 nf-item design frontend p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/5.jpg" title="git dashboard">
+                                    <img class="item-container" src="images/portfolio/thumb5.jpg" alt="5">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">git dashboard</h5>
+                                          <p class="text-light">Responsive Dashboard Design</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                           <div class="col-md-4 col-6 p-0 nf-item design p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/6.jpg"
+                                    title="Voice Controlled Notes taking app">
+                                    <img class="item-container" src="images/portfolio/6.jpg" alt="6">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Voice Notes</h5>
+                                          <p class="text-light">Voice Controlled Notes taking app</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                           <div class="col-md-4 col-6 p-0 nf-item backend frontend  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/7.jpg"
+                                    title="Covid Tracker in LWC">
+                                    <img class="item-container" src="images/portfolio/7.jpg" alt="1">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Covid Tracker in LWC</h5>
+                                          <p class="text-light">Salesforce LWC</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <div class="col-md-4 col-6 p-0 nf-item backend frontend  p-3">
+                              <div class="item-box">
+                                 <a class="cbox-gallary1 mfp-image" href="images/portfolio/8.jpg"
+                                    title="documentation in LWC">
+                                    <img class="item-container" src="images/portfolio/8.jpg" alt="1">
+                                    <div class="item-mask">
+                                       <div class="item-caption">
+                                          <h5 class="text-light">Salesforcelightningweb</h5>
+                                          <p class="text-light">documentation</p>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!--end item-box-->
+                           </div>
+                           <!--end col-->
+                        </div>
+                        <!--end row-->
+                     </div>
+                     <!--end col-->
+                  </div>
+                  <!--end row-->
+               </div>
+               <!--end col-->
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="bg-funfact section-md">
+         <div class="container">
+            <div class="row justify-content-center" id="clients">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">Major Clients</h4>
+               </div>
+               <div class="col-12 pt-3">
+                  <div class="row">
+                     <div class="col-12 col-sm-2 text-center mb-3">
+                        <img src="images/Clients/ANZ bank.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2 text-center">
+                        <img src="images/Clients/RMIT.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2 mb-3 text-center">
+                        <img src="images/Clients/NSW.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3text-center">
+                        <img src="images/Clients/SCB.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3 text-center">
+                        <img src="images/Clients/BEL.png" height="80" width="100%" />
+                     </div>
+                     <div class="col-12 col-sm-2  mb-3 text-center">
+                        <img src="images/Clients/BOFA.jpg" height="80" width="100%" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <section class="pt-5 pb-5certification_awards section-md">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h4 class="header-title mb-3">Awards & Certifications</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-12 col-print-6">
+                  <div class="row">
+                     <div class="col-sm-6 col-print-6">
+                        <div class="resume-icon">
+                           <i class="uil uil-award"></i>
+                           <h5 class="mt-n2 pl-3">Awards</h5>
+                        </div>
+                        <!--end resume-icon-->
+                        <div class="timeline">
+                           <div class="time-item mt-3">
+                              <div class="item-info">
+                                 <div class="font-14">DCX Recogination</div>
+                                 <h5 class="my-1">Capgemini Australia</h5>
+                                 <p>For outstanding contribution in creating the re-usable components</p>
+                              </div>
+                           </div>
+                           <div class="time-item mt-3">
+                              <div class="item-info">
+                                 <div class="font-14">Most Valuable Player</div>
+                                 <h5 class="my-1">Infosys Australia</h5>
+                                 <p>For delivering quality work on time</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
+                           <div class="time-item mt-3">
+                              <div class="item-info">
+                                 <div class="font-14">Digital Award (RnR)</div>
+                                 <h5 class="my-1">Infosys India</h5>
+                                 <p>Outstanding Performance in the Digital Experience Unit</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
+                           <div class="time-item">
+                              <div class="item-info">
+                                 <div class="font-14">BFS-Insta Award</div>
+                                 <h5 class="my-1">Infosys India</h5>
+                                 <p>The top performer for a particular quarter</p>
+                              </div>
+                           </div>
+                           <div class="time-item">
+                              <div class="item-info">
+                                 <div class="font-14">Certificate Of Achievement</div>
+                                 <h5 class="my-1">Infosys India</h5>
+                                 <p>Got an award from Company CEO for outstanding contribution</p>
+                              </div>
+                           </div>
+                           <!--end time-item-->
+                        </div>
+                        <!--end timeline-->
+                     </div>
+                     <div class="col-sm-6 col-print-6">
+                        <div class="resume-icon">
+                           <i class="uil uil-bright"></i>
+                           <h5 class="mt-n2">Certifications</h5>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-6 col-print-6">
+                              <div class="timeline">
+                                 <div class="time-item">
+                                    <div class="item-info">
+                                       <div class="font-14">Salesforce Certified JavaScript Developer I</div>
+                                       <h5 class="my-1">Salesforce</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item">
+                                    <div class="item-info">
+                                       <div class="font-14">Salesforce Certified Administrator (SCA)</div>
+                                       <h5 class="my-1">Salesforce</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Salesforce certified Einstein analytics and discovery consultant</div>
+                                       <h5 class="my-1">Salesforce</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Copado Certified Administrator</div>
+                                       <h5 class="my-1">Copado</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Google Analytics Individual Qualification</div>
+                                       <h5 class="my-1">Google</h5>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-print-6">
+                              <div class="timeline">
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Microsoft Specialist:Programming in HTML5 with JavaScript and CSS3</div>
+                                       <h5 class="my-1">Microsoft</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Professional Scrum Master I</div>
+                                       <h5 class="my-1">Scrum</h5>
+                                    </div>
+                                 </div>
+                                 
+                                 
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Google India Challenge Scholarship</div>
+                                       <h5 class="my-1">Google</h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Front-End Web UI Frameworks and Tools</div>
+                                       <h5 class="my-1">Coursera </h5>
+                                    </div>
+                                 </div>
+                                 <div class="time-item mt-3">
+                                    <div class="item-info">
+                                       <div class="font-14">Front-End JavaScript Frameworks: Angular/React</div>
+                                       <h5 class="my-1">Coursera </h5>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--end row-->
+               </div>
+               <!--end col-->
+               <!--end col-->
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="section-md contact-form .bg-funfact">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 mb-3">
+                  <h4 class="header-title mb-3">Contact Me</h4>
+               </div>
+               <!--end col-->
+               <div class="col-sm-4">
+                  <div class="contact-info">
+                     <div class="icon"><i class="uil uil-phone-volume"></i></div>
+                     <div class="content">
+                        <h5>Free Call To Me:</h5>
+                        <span>(+61) 468-305-744</span>
+                     </div>
+                  </div>
+                  <!--end contact-info-->
+                  <div class="contact-info">
+                     <div class="icon"><i class="uil uil-envelope"></i></div>
+                     <div class="content">
+                        <h5>Mail Me:</h5>
+                        <span>karkra.nikhil@gmail.com</span>
+                     </div>
+                  </div>
+                  <!--end contact-info-->
+                  <div class="contact-info">
+                     <div class="icon"><i class="uil uil-map-marker"></i></div>
+                     <div class="content">
+                        <h5>Find Me:</h5>
+                        <span>la trobe street docklands</span>
+                     </div>
+                  </div>
+                  <!--end contact-info-->
+               </div>
+               <!--end col-->
+               <div class="col-sm-8">
+                  <div class="contact-form">
+                     <div id="message"></div>
+                     <form method="post" action="mailto:karkra.nikhil@gmail.com" enctype="text/plain" name="contact-form" id="contact-form">
+                        <div class="row">
+                           <div class="form-group col-md-6"><label>Name</label> <input type="text" name="name"
+                                 class="form-control" id="name"></div>
+                           <!--end col-->
+                           <div class="form-group col-md-6"><label>Email address</label> <input type="email"
+                                 name="email" class="form-control" id="email"></div>
+                           <!--end col-->
+                           <div class="form-group col-md-12"><label>Message</label> <textarea rows="4" name="message"
+                                 class="form-control" id="comments"></textarea></div>
+                           <!--end col-->
+                           <div class="form-group col-md-12">
+                              <input type="submit" value="Submit now" name="submit" id="submit"
+                                 class="btn btn-primary px-5 py-2">
+                              <div id="simple-msg"></div>
+                           </div>
+                           <!--end col-->
+                        </div>
+                        <!--end row-->
+                     </form>
+                     <!--end form-->
+                  </div>
+                  <!--end contact-form-->
+               </div>
+               <!--end col-->
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <section class="section-md thanks-text">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h3 class="text-center">Thank you !</h3>
+               </div>
+               <!--end col-->
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </section>
+      <!--end section-->
+      <footer class="footer-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 text-center">
+                  <p class="copyright mb-0 py-4">© 2020. Design By Nikhil Karkra</p>
+               </div>
+               <!--end col-->
+            </div>
+            <!--end row-->
+         </div>
+         <!--end container-->
+      </footer>
+      <!--end footer-area-->
+   </div>
+   <!--end main-wraper-->
+   <!-- jQuery  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="plugins/ripple/jquery.ripples.js"></script>
+   <script src="plugins/animated/headline.js"></script>
+   <script src="plugins/counter/jquery.counterup.min.js"></script>
+   <script src="plugins/counter/waypoints.min.js"></script>
+   <script src="plugins/filter/isotope.pkgd.min.js"></script>
+   <script src="plugins/filter/masonry.pkgd.min.js"></script>
+   <script src="plugins/filter/jquery.magnific-popup.min.js"></script><!-- App js -->
+   <script src="js/app.js"></script>
    
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-  $(function() {
-    $('.chart').easyPieChart({
-                //your configuration goes here
-                easing: 'easeOut',
-                delay: 3000,
-                barColor:'#ff784e',
-                trackColor:'rgba(128,128,128,0.77)',
-                scaleColor: false,
-                lineWidth: 8,
-                size: 140,
-                animate: 2000,
-                onStep: function(from, to, percent) {
-                    this.el.children[0].innerHTML = Math.round(percent);
-                }
-
-            }); 
-    });
-})
-var app = angular.module('nixalar', []);
-app.controller('nixalarCtrl', function($scope,$window) {
-    $scope.sendMail = function(emailId,subject,message){
-        $window.open("mailto:"+ emailId + "?subject=" + subject+"&body="+message,"_self");
-    };
-});
-</script>
-
 </body>
+
 </html>
