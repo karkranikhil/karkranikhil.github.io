@@ -42,4 +42,5 @@ a.projectlink:hover{
   .clients>div>div{
     padding: 8px;
     background: #fff;
+    max-width: 160px;
   }
