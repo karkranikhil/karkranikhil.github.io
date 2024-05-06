@@ -1,0 +1,45 @@
+.social-icon i{
+    font-size: 20px;
+}
+.card-img-top{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+}
+.card-img-top-course{
+    height: 100px;
+    width: 160px;
+    margin: 0 auto;
+}
+.project-card{
+    background: #171f33;
+    border-radius: 12px;
+    height: 100%;
+}
+.udemy-card{
+    background: #171f33;
+    border-radius: 12px;
+    height: 100%;
+    padding: 16px 20px !important;
+    text-align: center;
+}
+a.projectlink:hover{
+    color: inherit;
+    box-shadow: 1px 1px 5px;
+}
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .resume-icon svg{
+    font-size: 52px;
+    color: #50649c;
+  }
+  .clients>div>div{
+    padding: 8px;
+    background: #fff;
+  }
