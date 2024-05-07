@@ -44,3 +44,10 @@ a.projectlink:hover{
     background: #fff;
     max-width: 160px;
   }
+  .user-image{
+    height: 127px;
+    width: 127px;
+  }
+  .width100{
+    width: 100%;
+  }
